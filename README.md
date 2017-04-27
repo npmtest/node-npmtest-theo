@@ -1,6 +1,6 @@
 # npmtest-theo
 
-#### test coverage for  [theo (v5.0.0)](https://github.com/salesforce-ux/theo)  [![npm package](https://img.shields.io/npm/v/npmtest-theo.svg?style=flat-square)](https://www.npmjs.org/package/npmtest-theo) [![travis-ci.org build-status](https://api.travis-ci.org/npmtest/node-npmtest-theo.svg)](https://travis-ci.org/npmtest/node-npmtest-theo)
+#### basic test coverage for  [theo (v5.0.0)](https://github.com/salesforce-ux/theo)  [![npm package](https://img.shields.io/npm/v/npmtest-theo.svg?style=flat-square)](https://www.npmjs.org/package/npmtest-theo) [![travis-ci.org build-status](https://api.travis-ci.org/npmtest/node-npmtest-theo.svg)](https://travis-ci.org/npmtest/node-npmtest-theo)
 
 #### A set of Gulp plugins for transforming and formatting Design Tokens
 
@@ -10,7 +10,7 @@
 |--:|:--|
 | coverage : | [![istanbul-coverage](https://npmtest.github.io/node-npmtest-theo/build/coverage.badge.svg)](https://npmtest.github.io/node-npmtest-theo/build/coverage.html/index.html)|
 | test-report : | [![test-report](https://npmtest.github.io/node-npmtest-theo/build/test-report.badge.svg)](https://npmtest.github.io/node-npmtest-theo/build/test-report.html)|
-| build-artifacts : | [![build-artifacts](https://npmtest.github.io/node-npmtest-theo/glyphicons_144_folder_open.png)](https://github.com/npmtest/node-npmtest-theo/tree/gh-pages/build)|
+| test-server-github : | [![github.com test-server](https://npmtest.github.io/node-npmtest-theo/GitHub-Mark-32px.png)](https://npmtest.github.io/node-npmtest-theo/build/app/index.html) | | build-artifacts : | [![build-artifacts](https://npmtest.github.io/node-npmtest-theo/glyphicons_144_folder_open.png)](https://github.com/npmtest/node-npmtest-theo/tree/gh-pages/build)|
 
 - [https://npmtest.github.io/node-npmtest-theo/build/coverage.html/index.html](https://npmtest.github.io/node-npmtest-theo/build/coverage.html/index.html)
 
@@ -112,7 +112,8 @@
         "lint": "eslint . --ext .js --format codeframe",
         "test": "jest"
     },
-    "version": "5.0.0"
+    "version": "5.0.0",
+    "bin": {}
 }
 ```
 
